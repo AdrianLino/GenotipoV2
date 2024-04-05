@@ -670,3 +670,55 @@ in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
 INFO - 2024-04-05 13:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-04-05 15:05:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-04-05 15:05:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-05 15:11:37 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "articulos/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('articulos/index.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('articulos/index', [], true)
+ 3 APPPATH\Controllers\ArticulosController.php(21): view('articulos/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ArticulosController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticulosController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\GenotipoV2\\public\\index.php')
+CRITICAL - 2024-04-05 15:11:39 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "articulos/editar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('articulos/editar.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('articulos/editar', [], true)
+ 3 APPPATH\Controllers\ArticulosController.php(85): view('articulos/editar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ArticulosController->editar('1')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticulosController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\GenotipoV2\\public\\index.php')
+CRITICAL - 2024-04-05 15:11:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "articulos/nuevo.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('articulos/nuevo.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('articulos/nuevo', [], true)
+ 3 APPPATH\Controllers\ArticulosController.php(26): view('articulos/nuevo')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ArticulosController->nuevo()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticulosController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\GenotipoV2\\public\\index.php')
+INFO - 2024-04-05 15:16:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 15:16:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 15:18:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 15:18:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 15:18:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 15:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 15:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 15:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 15:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 15:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-05 15:21:32 --> ErrorException: Undefined variable $articulos
+in APPPATH\Views\tendencias_actuales\tendencias_actuales_page.php on line 51.
+ 1 APPPATH\Views\tendencias_actuales\tendencias_actuales_page.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $articulos', 'C:\\laragon\\www\\GenotipoV2\\app\\Views\\tendencias_actuales\\tendencias_actuales_page.php', 51)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\GenotipoV2\\app\\Views\\tendencias_actuales\\tendencias_actuales_page.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tendencias_actuales/tendencias_actuales_page', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('tendencias_actuales/tendencias_actuales_page')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\GenotipoV2\\public\\index.php')
