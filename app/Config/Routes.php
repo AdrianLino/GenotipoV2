@@ -7,5 +7,5 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 
-$routes->get('/admin', 'AdminController::index', ['filter' => 'login']);
+$routes->get('admin', 'AdminController::index', ['filter' => 'login']);
 

@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/AdrianLino/GenotipoV2/issues"
   },
-  "homepage": "https://github.com/AdrianLino/GenotipoV2#readme"
+  "homepage": "https://github.com/AdrianLino/GenotipoV2#readme",
+  "dependencies": {
+    "flowbite": "^2.3.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
 }

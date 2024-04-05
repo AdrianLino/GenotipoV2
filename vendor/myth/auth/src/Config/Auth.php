@@ -32,6 +32,7 @@ class Auth extends BaseConfig
      * @var string
      */
     public $landingRoute = '/admin';
+    public $redirectURL = '/admin';
 
     /**
      * --------------------------------------------------------------------

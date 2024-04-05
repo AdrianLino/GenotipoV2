@@ -18,6 +18,9 @@ $routes->group('', ['namespace' => 'Myth\Auth\Controllers'], static function ($r
     $routes->post($reservedRoutes['login'], 'AuthController::attemptLogin');
     $routes->get($reservedRoutes['logout'], 'AuthController::logout');
 
+    $routes->get('admin', 'AdminController::index', ['filter' => 'login']);
+
+
     // Registration
     $routes->get($reservedRoutes['register'], 'AuthController::register', ['as' => $reservedRoutes['register']]);
     $routes->post($reservedRoutes['register'], 'AuthController::attemptRegister');
@@ -32,3 +35,6 @@ $routes->group('', ['namespace' => 'Myth\Auth\Controllers'], static function ($r
     $routes->get($reservedRoutes['reset-password'], 'AuthController::resetPassword', ['as' => $reservedRoutes['reset-password']]);
     $routes->post($reservedRoutes['reset-password'], 'AuthController::attemptReset');
 });
+
+$routes->get('admin', 'AdminController::index', ['filter' => 'login']);
+
