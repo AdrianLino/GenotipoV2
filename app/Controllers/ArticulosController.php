@@ -70,7 +70,7 @@ class ArticulosController extends BaseController
         }
 
         $this->articulosModel->save($data);
-        return redirect()->to('admin//articulos');
+        return redirect()->to('articulos');
     }
 
     public function editar($id)
@@ -116,7 +116,7 @@ class ArticulosController extends BaseController
         }
 
         $this->articulosModel->update($id, $data);
-        return redirect()->to('admin//articulos');
+        return redirect()->to('articulos');
     }
 
     public function eliminar($id)
@@ -132,9 +132,9 @@ class ArticulosController extends BaseController
 
             $this->articulosModel->delete($id);
 
-            return redirect()->to('admin//articulos')->with('message', 'Articulo eliminado correctamente');
+            return redirect()->to('articulos')->with('message', 'Articulo eliminado correctamente');
         } else {
-            return redirect()->to('admin//articulos')->with('error', 'El articulo no se encuentra');
+            return redirect()->to('articulos')->with('error', 'El articulo no se encuentra');
         }
     }
 }
