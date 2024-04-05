@@ -69,7 +69,7 @@
         </div>
     </nav>
 
-    <div class="flex justify-center w-full">
+    <div class="flex justify-center w-full mt-40">
         <div class="w-4/5">
             <div class="flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-month" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#597e8d" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -93,7 +93,7 @@
             <p class="text-base mb-7"><?= esc($articulo['description']) ?></p>
                 <img style="width:100%" class="h-auto  rounded-lg" src="<?= base_url('storage/' . esc($articulo['image'])) ?>" alt="Imagen actual">
 
-            <p><?= esc($articulo['content']) ?></p>
+            <p class="mt-9"><?= esc($articulo['content']) ?></p>
         </div>
     </div>
 
