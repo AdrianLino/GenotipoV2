@@ -1,0 +1,24 @@
+{
+  "name": "genotipov2",
+  "version": "1.0.0",
+  "description": "trabajo",
+  "main": "tailwind.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i public/src/css/input.css -o public/src/css/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdrianLino/GenotipoV2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdrianLino/GenotipoV2/issues"
+  },
+  "homepage": "https://github.com/AdrianLino/GenotipoV2#readme"
+}
