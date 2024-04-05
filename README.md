@@ -2,6 +2,13 @@
  Creación de un módulo administrable, donde se puedan visualizar, agregar, 
 actualizar y eliminar artículos. 
 
+## Tecnologias:
+- codeigniter V4
+- Tailwind
+- JavaScript
+- MySQL
+- PHP 
+
 ## Interfaces
 - Inicio:
   ![image](https://github.com/AdrianLino/GenotipoV2/assets/106170644/539a212f-d3f4-4e27-bbc7-8a6fdd950a93)
